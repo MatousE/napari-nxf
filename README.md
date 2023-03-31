@@ -39,11 +39,15 @@ Install nextflow
 
     conda install -c bioconda nextflow
 
-Install nextflowpy
-
-    pip install nextflowpy
-
 Clone plugin
+
+    git clone https://github.com/MatousE/napari-nxf.git
+
+Move to napari-nxf directory
+
+    cd napari-nxf
+
+Install plugin
 
     pip install -e .
 
